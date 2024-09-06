@@ -7,10 +7,9 @@ const HomeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%; /* A altura agora deve ser 100% para ocupar a altura da tela definida pelo wrapper */
+  height: calc(100vh - 250px);
   background-color: #0a192f;
   text-align: center;
-  padding: 4rem;
 `;
 
 const Title = styled.h1`
@@ -20,11 +19,11 @@ const Title = styled.h1`
 
 const SubTitle = styled.h2`
   font-size: 1.5rem;
+  margin-bottom: 30px;
 `;
 
 const ProfileImage = styled.img`
-  width: 300px; 
-  height: 400px;
+  width: 200px; 
   margin-bottom: 1.5rem;
   object-fit: cover;
 `;
@@ -34,9 +33,7 @@ const Home = () => {
 		<HomeContainer id="home">
 			<ProfileImage src={profileImage} alt="Lucas" />
 			<Title>Lucas Galli</Title>
-			<SubTitle>Desenvolvedor Fullstack</SubTitle>
-			<h4>Website e aplicativos híbridos</h4>
-			<br />
+			<SubTitle>Desenvolvedor Fullstack e Professor</SubTitle>
 			<a className="button" href="#">Download CV</a>
 		</HomeContainer>
 	);

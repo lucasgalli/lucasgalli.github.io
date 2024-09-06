@@ -66,25 +66,20 @@ const ButtonGroup = styled.div`
 const Projects = () => {
 	const projects = [
 		{
-			title: 'Furniture store landing page',
-			description: 'Responsive HTML/CSS layout for online furniture store.',
-			image: 'https://source.unsplash.com/random/300x200?furniture',
+			title: 'Star Ofertas e Amora',
+			description: 'Aplicativos hibridso com PHP, Mysql, Javascript, HTML/CSS.',
+			image: 'https://play.google.com/store/apps/developer?id=R3mobi',
 		},
 		{
-			title: 'Designer furniture store',
-			description: 'Responsive HTML/CSS layout for designer furniture store.',
-			image: 'https://source.unsplash.com/random/300x200?interior',
+			title: 'Vários aplicativos',
+			description: 'Feitos com React Native, PHP, Mysql',
+			image: '../src/assets/dev-apps-ios-android-2.jpg',
 		},
 		{
-			title: 'Landing page for front-end developer',
-			description: 'Responsive HTML/CSS layout for front-end developer.',
-			image: 'https://source.unsplash.com/random/300x200?web',
-		},
-		{
-			title: 'Website redesign for The Venus project',
-			description: 'Responsive HTML/CSS layout for The Venus project.',
-			image: 'https://source.unsplash.com/random/300x200?technology',
-		},
+			title: 'Website Star Ofertas e Amora',
+			description: 'Layout responsivo com HTML/CSS no front-end, PHP e mysql no back-end.',
+			image: 'https://www.starofertas.com.br/v2/img/app-logo.png',
+		}
 	];
 
 	return (

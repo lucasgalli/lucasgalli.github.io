@@ -8,10 +8,7 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  position: fixed;
   width: 100%;
-  top: 0;
-  z-index: 1000;
 `;
 
 const Logo = styled.h1`
@@ -46,7 +43,7 @@ const Header = () => {
 				</NavLink>
 			</Logo>
 			<Nav>
-				<NavLink to="projects" smooth={true} duration={500}>
+				{/*<NavLink to="projects" smooth={true} duration={500}>
 					Projetos
 				</NavLink>
 				<NavLink to="technologies" smooth={true} duration={500}>
@@ -54,7 +51,7 @@ const Header = () => {
 				</NavLink>
 				<NavLink to="about" smooth={true} duration={500}>
 					Sobre mim
-				</NavLink>
+				</NavLink>*/}
 			</Nav>
 		</HeaderContainer>
 	);

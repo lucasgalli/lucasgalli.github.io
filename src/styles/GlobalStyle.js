@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  #root{
+ 	height: 100vh; 
+  }
+
   body {
     font-family: 'Calibre', sans-serif; /* Fonte principal */
     background-color: #0a192f; /* Fundo principal */
@@ -51,7 +55,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .section {
-    padding: 2rem;
     background-color: #0a192f; /* Fundo secundário para seções */
     border-radius: 8px; /* Bordas arredondadas para seções */
     margin-bottom: 2rem; /* Margem inferior para espaçamento entre seções */

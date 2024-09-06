@@ -17,7 +17,7 @@ const App = () => {
 			<Element name="home" className="section">
 				<Home />
 			</Element>
-			<Element name="projects" className="section">
+			{/*<Element name="projects" className="section">
 				<Projects />
 			</Element>
 			<Element name="technologies" className="section">
@@ -25,7 +25,7 @@ const App = () => {
 			</Element>
 			<Element name="about" className="section">
 				<AboutMe />
-			</Element>
+			</Element>*/}
 
 			<Footer />
 		</>

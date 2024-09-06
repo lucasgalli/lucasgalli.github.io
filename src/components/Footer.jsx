@@ -7,13 +7,13 @@ const FooterContainer = styled.footer`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
   text-align: center;
 `;
 
 const ContactInfo = styled.div`
   margin-bottom: 1rem;
   font-size: 1rem;
+  line-height: 24px;
 `;
 
 const SocialIcons = styled.div`
@@ -25,13 +25,13 @@ const Footer = () => {
 	return (
 		<FooterContainer>
 			<ContactInfo>
-				<p>Email: lucasgalli.tsi@gmail.com</p>
-				<p>Whatsapp: (46) 991163865</p>
+				<p>lucasgalli.tsi@gmail.com</p>
+				<p>(46) 991163865</p>
 			</ContactInfo>
 			<SocialIcons>
-				<FaGithub size={24} />
-				<FaLinkedin size={24} />
-				<FaInstagram size={24} />
+				<a href='https://www.github.com/lucasgalli' target='_blank'><FaGithub size={40} /></a>
+				<a href='https://www.linkedin.com/in/mrgalli/' target='_blank'><FaLinkedin size={40} /></a>
+				<a href='https://www.instagram.com/mr.galli' target='_blank'><FaInstagram size={40} /></a>
 			</SocialIcons>
 		</FooterContainer>
 	);
