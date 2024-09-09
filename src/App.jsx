@@ -19,11 +19,11 @@ const App = () => {
 			</Element>
 			{/*<Element name="projects" className="section">
 				<Projects />
-			</Element>
+			</Element>*/}
 			<Element name="technologies" className="section">
 				<Technologies />
 			</Element>
-			<Element name="about" className="section">
+			{/*<Element name="about" className="section">
 				<AboutMe />
 			</Element>*/}
 

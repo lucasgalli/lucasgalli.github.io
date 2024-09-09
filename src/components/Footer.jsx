@@ -18,7 +18,8 @@ const ContactInfo = styled.div`
 
 const SocialIcons = styled.div`
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  padding-bottom: 50px;
 `;
 
 const Footer = () => {

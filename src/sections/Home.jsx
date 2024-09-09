@@ -7,7 +7,7 @@ const HomeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 250px);
+  height: calc(100vh - 100px);
   background-color: #0a192f;
   text-align: center;
 `;
@@ -34,7 +34,7 @@ const Home = () => {
 			<ProfileImage src={profileImage} alt="Lucas" />
 			<Title>Lucas Galli</Title>
 			<SubTitle>Desenvolvedor Fullstack e Professor</SubTitle>
-			<a className="button" href="#">Download CV</a>
+			<a className="button" href="https://drive.google.com/file/d/1hHLLzVdyWbF-6QzFDHFENPN0GeaDtVxC/view?usp=sharing">Download CV</a>
 		</HomeContainer>
 	);
 };

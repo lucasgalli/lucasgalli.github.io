@@ -45,11 +45,11 @@ const Header = () => {
 			<Nav>
 				{/*<NavLink to="projects" smooth={true} duration={500}>
 					Projetos
-				</NavLink>
+				</NavLink>*/}
 				<NavLink to="technologies" smooth={true} duration={500}>
 					Tecnologias
 				</NavLink>
-				<NavLink to="about" smooth={true} duration={500}>
+				{/*<NavLink to="about" smooth={true} duration={500}>
 					Sobre mim
 				</NavLink>*/}
 			</Nav>
