@@ -1,3 +1,3 @@
 Lucas Galli
 
-Portifólio pessoal.
+Website pessoal.
