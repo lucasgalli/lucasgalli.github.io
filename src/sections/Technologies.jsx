@@ -9,6 +9,7 @@ const TechnologiesContainer = styled.section`
   height: 100vh;
   background-color: #0a192f;
   padding: 2rem;
+   width: 100%;
 `;
 
 const Title = styled.h2`
@@ -59,7 +60,7 @@ const Technologies = () => {
 
 	return (
 		<TechnologiesContainer id="technologies">
-			<Title>Tecnologias</Title>
+			<Title>Tecnologias.</Title>
 			{skills.map(skill => (
 				<SkillBarContainer key={skill.name}>
 					<SkillLabel>
