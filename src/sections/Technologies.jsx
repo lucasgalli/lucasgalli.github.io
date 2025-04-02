@@ -59,7 +59,7 @@ const Technologies = () => {
 
 	return (
 		<TechnologiesContainer id="technologies">
-			<Title>Tecnologias</Title>
+			<Title>Tecnologias..</Title>
 			{skills.map(skill => (
 				<SkillBarContainer key={skill.name}>
 					<SkillLabel>
