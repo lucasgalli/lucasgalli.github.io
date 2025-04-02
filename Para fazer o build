@@ -1,0 +1,5 @@
+execute o comando abaixo dentro do projeto, para fazer o deploy.
+
+- npm install gh-pages --save-dev
+
+- npm run deploy
