@@ -9,7 +9,6 @@ const TechnologiesContainer = styled.section`
 	height: 100vh;
 	background-color: #0a192f;
 	padding: 2rem;
-	width: 100%;
 `;
 
 const Title = styled.h2`
@@ -18,7 +17,7 @@ const Title = styled.h2`
 `;
 
 const SkillBarContainer = styled.div`
-  width: 200%;
+  width: 100%;
   max-width: 600px;
   margin: 1rem 0;
 `;
