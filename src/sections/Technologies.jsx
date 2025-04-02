@@ -2,13 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const TechnologiesContainer = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #0a192f;
-  padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #0a192f;
+	padding: 2rem;
+	width: 100%;
 `;
 
 const Title = styled.h2`
