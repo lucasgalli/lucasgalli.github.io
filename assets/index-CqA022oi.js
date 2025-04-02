@@ -199,12 +199,11 @@ Error generating stack: `+i.message+`
 	height: 100vh;
 	background-color: #0a192f;
 	padding: 2rem;
-	width: 100%;
 `,by=oe.h2`
   font-size: 2.5rem;
   margin-bottom: 2rem;
 `,e0=oe.div`
-  width: 200%;
+  width: 100%;
   max-width: 600px;
   margin: 1rem 0;
 `,t0=oe.div`
@@ -224,4 +223,4 @@ Error generating stack: `+i.message+`
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
-`,o0=()=>{const e=[{name:"PHP",level:100,levelText:"Avançado"},{name:"PHP POO",level:50,levelText:"Intermediário"},{name:"Laravel",level:50,levelText:"Iniciante"},{name:"Mysql",level:80,levelText:"Avançado"},{name:"React js",level:70,levelText:"Intermediário"},{name:"jQuery, Zepto",level:100,levelText:"Avançado"},{name:"JavaScript, CSS, HTML5",level:100,levelText:"Avançado"},{name:"Amazon Web Service ECS, RDS, S3",level:90,levelText:"Avançado"}];return $.jsxs(qy,{id:"technologies",children:[$.jsx(by,{children:"Tecnologias"}),e.map(t=>$.jsxs(e0,{children:[$.jsxs(r0,{children:[$.jsx("span",{children:t.name}),$.jsx("span",{children:t.levelText})]}),$.jsx(t0,{children:$.jsx(n0,{level:t.level})})]},t.name))]})},i0=()=>$.jsxs($.Fragment,{children:[$.jsx(_1,{}),$.jsx($y,{}),$.jsx(_i,{name:"home",className:"section",children:$.jsx(Jy,{})}),$.jsx(_i,{name:"technologies",className:"section",children:$.jsx(o0,{})}),$.jsx(Qy,{})]});Ml.createRoot(document.getElementById("root")).render($.jsx(se.StrictMode,{children:$.jsx(i0,{})}));
+`,o0=()=>{const e=[{name:"PHP",level:100,levelText:"Avançado"},{name:"PHP POO",level:50,levelText:"Intermediário"},{name:"Laravel",level:50,levelText:"Iniciante"},{name:"Mysql",level:80,levelText:"Avançado"},{name:"React js",level:70,levelText:"Intermediário"},{name:"jQuery, Zepto",level:100,levelText:"Avançado"},{name:"JavaScript, CSS, HTML5",level:100,levelText:"Avançado"},{name:"Amazon Web Service ECS, RDS, S3",level:90,levelText:"Avançado"}];return $.jsxs(qy,{id:"technologies",children:[$.jsx(by,{children:"Tecnologias.."}),e.map(t=>$.jsxs(e0,{children:[$.jsxs(r0,{children:[$.jsx("span",{children:t.name}),$.jsx("span",{children:t.levelText})]}),$.jsx(t0,{children:$.jsx(n0,{level:t.level})})]},t.name))]})},i0=()=>$.jsxs($.Fragment,{children:[$.jsx(_1,{}),$.jsx($y,{}),$.jsx(_i,{name:"home",className:"section",children:$.jsx(Jy,{})}),$.jsx(_i,{name:"technologies",className:"section",children:$.jsx(o0,{})}),$.jsx(Qy,{})]});Ml.createRoot(document.getElementById("root")).render($.jsx(se.StrictMode,{children:$.jsx(i0,{})}));
