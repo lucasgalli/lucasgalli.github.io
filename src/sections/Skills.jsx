@@ -8,6 +8,7 @@ const SkillsContainer = styled.section`
   justify-content: center;
   height: 100vh;
   padding: 2rem;
+  width: 100%;
 `;
 
 const Title = styled.h2`
