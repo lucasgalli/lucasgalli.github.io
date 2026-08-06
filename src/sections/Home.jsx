@@ -33,7 +33,7 @@ const Home = () => {
 		<HomeContainer id="home">
 			<ProfileImage src={profileImage} alt="Lucas" />
 			<Title>Lucas Galli</Title>
-			<SubTitle>Desenvolvedor Fullstack e Professor</SubTitle>
+			<SubTitle>Desenvolvedor Fullstack</SubTitle>
 			<a className="button" href="https://drive.google.com/file/d/1hHLLzVdyWbF-6QzFDHFENPN0GeaDtVxC/view?usp=sharing">Download CV</a>
 		</HomeContainer>
 	);
